@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EC1F495F21230E2D00C89ABB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F495E21230E2D00C89ABB /* main.cpp */; };
+		EC1F496721232B6700C89ABB /* Space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F496521232B6700C89ABB /* Space.cpp */; };
+		EC1F496A21232B7500C89ABB /* Purgatory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F496821232B7500C89ABB /* Purgatory.cpp */; };
+		EC1F496D21232B8500C89ABB /* Future.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F496B21232B8500C89ABB /* Future.cpp */; };
+		EC1F497021232B8C00C89ABB /* Past.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F496E21232B8C00C89ABB /* Past.cpp */; };
+		EC1F497321232B9500C89ABB /* Present.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F497121232B9500C89ABB /* Present.cpp */; };
+		EC1F497621232C7D00C89ABB /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F497421232C7D00C89ABB /* Game.cpp */; };
+		EC1F497921239A0300C89ABB /* Inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC1F497721239A0300C89ABB /* Inventory.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		EC1F495B21230E2D00C89ABB /* FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1F495E21230E2D00C89ABB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC1F496521232B6700C89ABB /* Space.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Space.cpp; sourceTree = "<group>"; };
+		EC1F496621232B6700C89ABB /* Space.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Space.hpp; sourceTree = "<group>"; };
+		EC1F496821232B7500C89ABB /* Purgatory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Purgatory.cpp; sourceTree = "<group>"; };
+		EC1F496921232B7500C89ABB /* Purgatory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Purgatory.hpp; sourceTree = "<group>"; };
+		EC1F496B21232B8500C89ABB /* Future.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Future.cpp; sourceTree = "<group>"; };
+		EC1F496C21232B8500C89ABB /* Future.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Future.hpp; sourceTree = "<group>"; };
+		EC1F496E21232B8C00C89ABB /* Past.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Past.cpp; sourceTree = "<group>"; };
+		EC1F496F21232B8C00C89ABB /* Past.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Past.hpp; sourceTree = "<group>"; };
+		EC1F497121232B9500C89ABB /* Present.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Present.cpp; sourceTree = "<group>"; };
+		EC1F497221232B9500C89ABB /* Present.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Present.hpp; sourceTree = "<group>"; };
+		EC1F497421232C7D00C89ABB /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		EC1F497521232C7D00C89ABB /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		EC1F497721239A0300C89ABB /* Inventory.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Inventory.cpp; sourceTree = "<group>"; };
+		EC1F497821239A0300C89ABB /* Inventory.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Inventory.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				EC1F495E21230E2D00C89ABB /* main.cpp */,
+				EC1F496521232B6700C89ABB /* Space.cpp */,
+				EC1F496621232B6700C89ABB /* Space.hpp */,
+				EC1F496821232B7500C89ABB /* Purgatory.cpp */,
+				EC1F496921232B7500C89ABB /* Purgatory.hpp */,
+				EC1F496B21232B8500C89ABB /* Future.cpp */,
+				EC1F496C21232B8500C89ABB /* Future.hpp */,
+				EC1F496E21232B8C00C89ABB /* Past.cpp */,
+				EC1F496F21232B8C00C89ABB /* Past.hpp */,
+				EC1F497121232B9500C89ABB /* Present.cpp */,
+				EC1F497221232B9500C89ABB /* Present.hpp */,
+				EC1F497421232C7D00C89ABB /* Game.cpp */,
+				EC1F497521232C7D00C89ABB /* Game.hpp */,
+				EC1F497721239A0300C89ABB /* Inventory.cpp */,
+				EC1F497821239A0300C89ABB /* Inventory.hpp */,
 			);
 			path = FinalProject;
 			sourceTree = "<group>";
@@ -118,7 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1F496721232B6700C89ABB /* Space.cpp in Sources */,
 				EC1F495F21230E2D00C89ABB /* main.cpp in Sources */,
+				EC1F496D21232B8500C89ABB /* Future.cpp in Sources */,
+				EC1F496A21232B7500C89ABB /* Purgatory.cpp in Sources */,
+				EC1F497921239A0300C89ABB /* Inventory.cpp in Sources */,
+				EC1F497021232B8C00C89ABB /* Past.cpp in Sources */,
+				EC1F497321232B9500C89ABB /* Present.cpp in Sources */,
+				EC1F497621232C7D00C89ABB /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
